@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Novo Colaborador</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg1">
+	<h1 style="margin: 40px;">NOVO COLABORADOR</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome"
+					class="caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cpf" placeholder="CPF"
+					class="caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="item" placeholder="Item"
+					class="caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" style="margin: 25px 50px;" class="botao1"
+			onclick="salvar()">
+	</form>
+	<script src="scripts/funcao.js"></script>
+</body>
+</html>

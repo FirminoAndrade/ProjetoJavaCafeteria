@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+@import
+	url('https://fonts.googleapis.com/css2? family = Oswald: wght @ 600 & display = swap')
+	;
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	font-weight: 1000;
+}
+
+h1 {
+	color: #66bbff;
+	margin: 10px 50px;
+}
+
+h2 {
+	color: #000000;
+	margin: 250px 400px;
+	top: 50%;
+	font-weight: 10000;
+	font-size: 50px;
+}
+
+.botao {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 7px 12px 7px 12px;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 7px;
+	border: 0;
+	cursor: pointer;
+	font-size: 60px;
+	margin: 100px 500px;
+	position: absolute;
+	top: 50%;
+	
+}
+
+.botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 7px 12px 7px 12px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 7px;
+	border: 0;
+	cursor: pointer;
+}
+
+.botao3 {
+	text-decoration: none;
+	background-color: #008000;
+	padding: 7px 12px 7px 12px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 7px;
+	border: 0;
+	cursor: pointer;	
+}
+
+.botao2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 7px 12px 7px 12px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 7px;
+}
+
+.caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+	margin: 5px 50px;
+}
+
+.caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+#caixa3 {
+	width: 25px;
+	padding: 2px;
+	margin-bottom: 10px;
+	margin: 5px 50px;
+	border: 1px solid #ff0000;
+}
+
+#tabela {
+	margin-top: 40px;
+	border-collapse: collapse;
+	margin: 50px 50px;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.bg {
+	background-image:
+		url("https://f.i.uol.com.br/fotografia/2020/11/17/16056472345fb43b8247c7f_1605647234_3x2_md.jpg");
+	background-repeat: no-repeat;
+	 background-size: cover;
+}
+.bg1 {
+	background-image:
+		url("https://thumbs.dreamstime.com/b/espa%C3%A7o-tradicional-da-c%C3%B3pia-do-fundo-caf%C3%A9-manh%C3%A3-franc%C3%AAs-101945467.jpg");
+	background-repeat: no-repeat;
+	 background-size: cover;
+}
+
